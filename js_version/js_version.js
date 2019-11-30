@@ -116,7 +116,7 @@ function setup() {
   createCanvas(710, 400, WEBGL);
 }
 function draw() {
-  background(0,52,255);
+  background(204,204,204);
   (new DotGroup({dots: [new Dot({position: [10,10,10,],}), new Dot({position: [40,0,10,],}),],})).draw();
   //drag to move the world.
   orbitControl();
